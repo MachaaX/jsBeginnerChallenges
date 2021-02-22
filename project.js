@@ -73,17 +73,10 @@ function rpsReset() {
             "1":"paper",
             "2":"scissors",
         }
-        let createImage;
-        let div = document.querySelector("#rps-generator")
-        for (let i = 0; i < items.length; i++) {
-            createImage = document.createElement("img");
-            createImage.src = items[indexData[i]];
-            createImage.setAttribute("height", "150px")
-            createImage.setAttribute("id",indexData[i]);
-            createImage.setAttribute("onclick","rpsGame(this)" );
-            createImage.alt = "rock-paper-scissors";
-            div.appendChild(createImage);
-        }
+        let div = document.getElementById("rps-generator");
+        div.innerHTML = " <img id=\"rock\" src=\"rps1.png\"  height=\"150px\" alt=\"rock-paper-scissors\" onclick=\"rpsGame(this)\"> " +
+                        " <img id=\"paper\" src=\"rps2.png\"  height=\"150px\" alt=\"rock-paper-scissors\" onclick=\"rpsGame(this)\"> " +
+                        " <img id=\"scissors\" src=\"rps3.png\"  height=\"150px\" alt=\"rock-paper-scissors\" onclick=\"rpsGame(this)\"> " ;
     }
 }
 
@@ -308,7 +301,7 @@ function showResult(winner) {
         lossAudio.play();
     } else if(winner === null){
         message = "You Drew!";
-        msgColour = "yellow";
+        msgColour = "black";
         document.querySelector("#draws").textContent = blackJackData.draws;
         document.querySelector("#draws").style.color = msgColour;
         drawAudio.play();
