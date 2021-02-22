@@ -38,7 +38,7 @@
     align-items: center;
 }
 
-.flex-box2 img{
+.flex-box2 img, .blackjack-rules iframe{
     width: 20%;
     display: flex;
     margin: 10px;
