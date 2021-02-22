@@ -177,7 +177,7 @@ document.querySelector("#deal-button").addEventListener("click", blackJackDeal);
 document.querySelector("#stand-button").addEventListener("click", blackJackStand);
 
 function blackJackHit() {
-    if (blackJackData.isStand === false) {
+    if (blackJackData.isStand === false && blackJackData.isBust === false) {
         if (document.querySelector(YOU.div).querySelectorAll("img").length === 0) {
             showCard(YOU);
             showCard(YOU);
