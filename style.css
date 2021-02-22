@@ -1,0 +1,61 @@
+
+.challenge1, .challenge2, .challenge3, .challenge4, .challenge5{
+    border: 1px solid black;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex-box1, .flex-box2, .flex-box3,.flex-box4,
+ .flex-blackjack1, .flex-blackjack2, .flex-blackjack3{
+    display: flex;
+    border: solid 1px black;
+    padding: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.flex-blackjack1, .flex-blackjack2{
+    background:green;
+    color: white;
+}
+.flex-blackjack1 div{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    flex: 1;
+    height: 500px;
+}
+.flex-blackjack1 img{
+    width: 25%;
+    padding: 10px;
+}
+.flex-box2 div, .challenge2 div, .challenge3 div{
+    border:1px solid black;
+    padding: 10px;
+    align-items: center;
+}
+
+.flex-box2 img{
+    width: 20%;
+    display: flex;
+    margin: 10px;
+    border: solid 1px black;
+    box-shadow: 0px 10px 50px black ;
+}
+.flex-box3 img:hover{
+    box-shadow: 0px 10px 50px blue;
+}
+.flex-blackjack2 div, .flex-blackjack2 button{
+    border: 1px solid black;
+    padding: 10px;
+}
+table, th, td{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+
+
