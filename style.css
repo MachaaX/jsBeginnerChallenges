@@ -26,10 +26,10 @@
     text-align: center;
     align-items: center;
     flex: 1;
-    height: 500px;
+    height: 400px;
 }
 .flex-blackjack1 img{
-    width: 25%;
+    height: 40%;
     padding: 10px;
 }
 .flex-box2 div, .challenge2 div, .challenge3 div{
@@ -56,6 +56,3 @@ table, th, td{
     border: 1px solid black;
     padding: 5px;
 }
-
-
-
