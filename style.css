@@ -1,5 +1,5 @@
 
-.challenge1, .challenge2, .challenge3, .challenge4, .challenge5{
+.challenge1, .challenge2, .challenge3, .challenge4, .challenge5, .blackjack-rules{
     border: 1px solid black;
     width: 80%;
     margin: 0 auto;
@@ -7,7 +7,7 @@
 }
 
 .flex-box1, .flex-box2, .flex-box3,.flex-box4,
- .flex-blackjack1, .flex-blackjack2, .flex-blackjack3{
+ .flex-blackjack1, .flex-blackjack2, .flex-blackjack3,.flex-yt-videos{
     display: flex;
     border: solid 1px black;
     padding: 10px;
@@ -32,7 +32,7 @@
     height: 40%;
     padding: 10px;
 }
-.flex-box2 div, .challenge2 div, .challenge3 div{
+.flex-box2 div, .challenge2 div, .challenge3 div, .blackjack-rules div{
     border:1px solid black;
     padding: 10px;
     align-items: center;
